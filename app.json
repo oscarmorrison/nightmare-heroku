@@ -1,6 +1,6 @@
 {
   "name": "NightmareJS on Heroku",
-  "description": "A buildpa",
+  "description": "All the buildpack and settings you need to get Scraping on Heroku",
   "repository": "https://github.com/heroku/node-js-sample",
   "logo": "https://user-images.githubusercontent.com/1651212/27013967-6cbd6b8a-4ebc-11e7-9cd8-e5d0fcb01440.png",
   "keywords": ["node", "phantomjs", "nightmarejs", "scrape"]
