@@ -1,16 +1,17 @@
 const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: false });
 
-console.log('Welcome to Nightmare scrape\n==========\n');
+const URL = 'http://blog.oscarmorrison.com/nightmarejs-on-heroku-the-ultimate-scraping-setup/';
+console.log('Welcome to Nightmare scrape\n==========');
 
 nightmare
-    .goto('https://www.chess.com/member/oscargem')
-    .wait('#sidebar')
-    .evaluate(() => document.querySelector('.user-rating').textContent)
+    .goto(URL)
+    .wait('.post-title')
+    .evaluate(() => document.querySelector('.post-title').textContent)
     .end()
     .then((result) => {
         console.log(result);
-        console.log('all done\n=========\n');
+        console.log('=========\nAll done');
     })
     .catch((error) => {
         console.error('an error has occurred: ' + error);
