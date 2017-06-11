@@ -10,4 +10,16 @@
 
 
 ## Getting started
-`git clone --depth 1 git@github.com:oscarmorrison/nightmare-heroku [new-project-name]`
+- `git clone --depth 1 git@github.com:oscarmorrison/nightmare-heroku [new-project-name]`
+- `rm -rf .git`
+- `git init`
+- `heroku create [app-name]`
+- `heroku stack:set cedar-14`
+- set build packs
+```
+heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-apt &&
+heroku buildpacks:add --index 2 https://github.com/captain401/heroku-buildpack-xvfb.git &&
+heroku buildpacks:add --index 3 https://github.com/benschwarz/heroku-electron-buildpack.git &&
+heroku buildpacks:add --index 4 https://github.com/heroku/heroku-buildpack-nodejs.git`
+```
+
