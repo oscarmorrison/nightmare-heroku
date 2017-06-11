@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,12 +13,11 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscarmorrison/lifeScrape/issues"
+    "url": "https://github.com/oscarmorrison/nightmare-heroku"
   },
-  "homepage": "https://github.com/oscarmorrison/lifeScrape#readme",
+  "homepage": "https://github.com/oscarmorrison/nightmare-heroku",
   "dependencies": {
     "electron": "^1.6.10",
-    "nightmare": "^2.10.0",
-    "xvfb-maybe": "^0.2.1"
+    "nightmare": "^2.10.0"
   }
 }
