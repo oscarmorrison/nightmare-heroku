@@ -1,0 +1,25 @@
+{
+  "name": "life-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarmorrison/lifeScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarmorrison/lifeScrape/issues"
+  },
+  "homepage": "https://github.com/oscarmorrison/lifeScrape#readme",
+  "dependencies": {
+    "electron": "^1.6.10",
+    "nightmare": "^2.10.0",
+    "xvfb-maybe": "^0.2.1"
+  }
+}
