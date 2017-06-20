@@ -22,4 +22,5 @@ heroku buildpacks:add --index 2 https://github.com/captain401/heroku-buildpack-x
 heroku buildpacks:add --index 3 https://github.com/benschwarz/heroku-electron-buildpack.git &&
 heroku buildpacks:add --index 4 https://github.com/heroku/heroku-buildpack-nodejs.git`
 ```
-
+- `git push heroku master`
+- `heroku scale:ps web=0 worker=1`
