@@ -11,6 +11,7 @@
 
 ## Getting started
 - `git clone --depth 1 git@github.com:oscarmorrison/nightmare-heroku [new-project-name]`
+- `cd [new-project-name]`
 - `rm -rf .git`
 - `git init`
 - `heroku create [app-name]`
