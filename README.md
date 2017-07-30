@@ -9,6 +9,10 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](https://github.com/oscarmorrison/nightmare-heroku/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/oscarmorrison/nightmare-heroku.svg)](https://github.com/oscarmorrison/nightmare-heroku/issues)
 
 
+## Intro
+
+[NightmareJS](http://www.nightmarejs.org/) is an awesome highlevel webscraping and browser automation library built ontop of electron. This repo is a good starting place to be able to use it with some default setups ontop of heroku using the following instructions. [Read more](http://blog.oscarmorrison.com/nightmarejs-on-heroku-the-ultimate-scraping-setup/)
+
 ## Getting started
 - `git clone --depth 1 git@github.com:oscarmorrison/nightmare-heroku [new-project-name]`
 - `cd [new-project-name]`
