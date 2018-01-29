@@ -28,4 +28,4 @@ heroku buildpacks:add --index 3 https://github.com/benschwarz/heroku-electron-bu
 heroku buildpacks:add --index 4 https://github.com/heroku/heroku-buildpack-nodejs.git
 ```
 - `git push heroku master`
-- `heroku ps:scale web=1 worker=1`
+- `heroku ps:scale web=0 worker=1`
