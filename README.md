@@ -5,7 +5,7 @@
 
 # NightmareJS on Heroku <a href="https://heroku.com/deploy" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Heroku deploy" align="right"></a>
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/oscarmorrison/nightmare-heroku/issues)  
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/oscarmorrison/nightmare-heroku/issues)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](https://github.com/oscarmorrison/nightmare-heroku/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/oscarmorrison/nightmare-heroku.svg)](https://github.com/oscarmorrison/nightmare-heroku/issues)
 
 
@@ -24,7 +24,7 @@
 ```
 heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-apt &&
 heroku buildpacks:add --index 2 https://github.com/captain401/heroku-buildpack-xvfb.git &&
-heroku buildpacks:add --index 3 https://github.com/benschwarz/heroku-electron-buildpack.git &&
+heroku buildpacks:add --index 3 https://github.com/causztic/heroku-electron-buildpack.git &&
 heroku buildpacks:add --index 4 https://github.com/heroku/heroku-buildpack-nodejs.git
 ```
 - `git push heroku master`
