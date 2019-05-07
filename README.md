@@ -37,7 +37,7 @@ heroku buildpacks:add --index 4 https://github.com/heroku/heroku-buildpack-nodej
 ```
 - `git push heroku master`
 - goto heroku dashboard and select created app; install `Heroku Scheduler` add-on
-- `heroku ps:scale web=1`
+- `heroku ps:scale web=0`
 - `node ./index.js` to verify nightmare runs correctly locally; npm install needs to be run. The following output should be seen.
 ```
 Welcome to Nightmare scrape
@@ -48,3 +48,15 @@ All done
 ```
 - Open heroku app from heroku dashboard. 'Application error' is displayed because no routes have been defined yet so this is normal in this case. 
 - `heroku logs` to check output for any errors. If everything went well, near the bottom of the output the 'Welcome to Nightmare scrape' messages as displayed above should appear. Now, you can work on the rest of your code knowing that nightmarejs will work on heroku as it works locally.
+
+
+*Other*
+
+You may need to set a engines in package.json:
+```
+"engines": {
+      "node": "9.5.0",
+      "npm": "5.6.0"
+  },
+```
+
