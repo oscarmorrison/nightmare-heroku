@@ -49,14 +49,15 @@ All done
 - Open heroku app from heroku dashboard. 'Application error' is displayed because no routes have been defined yet so this is normal in this case. 
 - `heroku logs` to check output for any errors. If everything went well, near the bottom of the output the 'Welcome to Nightmare scrape' messages as displayed above should appear. Now, you can work on the rest of your code knowing that nightmarejs will work on heroku as it works locally.
 
-
-*Other*
+### Debugging
+```heroku run DEBUG=nightmare:*,electron:* xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" node --harmony index.js
+```
+### Other
 
 You may need to set a engines in package.json:
 ```
 "engines": {
-      "node": "9.5.0",
-      "npm": "5.6.0"
+      "node": "8.11.4"
   },
 ```
 
